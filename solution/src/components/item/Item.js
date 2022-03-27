@@ -4,7 +4,7 @@ import "./Item.css";
 //itemin icine props.card diye de cagirabiliriz!
 const Item = ({card}) => {
   //bu kismi logouyu goster veya gosterme seklinde yapmak icin kullaniyoruz.
-  const [showLogo, setShowLogo]= useState(true);
+  const [showLogo, setShowLogo] = useState(true);
 
   return (
     <div className="card" onClick={() => setShowLogo(!showLogo)}>
